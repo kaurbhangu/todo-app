@@ -1,13 +1,37 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@import url('../node_modules/bootstrap/dist/css/bootstrap.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&family=Poppins:wght@400;700&display=swap');
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+html, body{
+     height: 100%;
+ }
+ body{
+     font-family: 'Poppins', sans-serif;
+     background-color: #DDE7F9;
+ }
+ 
+ #root{
+     height: 100%;
+ }
+ 
+ .title{
+     font-family: 'Poiret One', cursive;
+ }
+ 
+ .bg-primary{
+     background-color: #131823 !important;
+ }
+ .text-primary{
+     color: #131823 !important;
+ }
+ .btn-primary{
+     background-color: #131823 !important;
+ }
+ 
+ .task-form{
+     width: 100%;
+     max-width: 600px;
+ }
+
+ .modal-dialog{
+    max-width: 600px !important;
+ }
